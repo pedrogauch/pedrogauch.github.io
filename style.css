@@ -49,7 +49,27 @@ body {
 .italic {
     text-shadow: 2px 2px #38184C;
     color: #CEF09D;
+} 
+
+.link {
+    color: whitesmoke;
 }
+
+
+
+/* Color Theme Swatches in Hex
+.Amazon-Woman-1-hex { color: #CEF09D; }
+.Amazon-Woman-2-hex { color: #1C646D; }
+.Amazon-Woman-3-hex { color: #1F0802; }
+.Amazon-Woman-4-hex { color: #38184C; }
+.Amazon-Woman-5-hex { color: #A0CD60; }
+
+/* Color Theme Swatches in RGBA */
+/* .Amazon-Woman-1-rgba { color: rgba(205, 239, 156, 1); }
+.Amazon-Woman-2-rgba { color: rgba(28, 100, 109, 1); }
+.Amazon-Woman-3-rgba { color: rgba(31, 8, 2, 1); }
+.Amazon-Woman-4-rgba { color: rgba(56, 23, 75, 1); }
+.Amazon-Woman-5-rgba { color: rgba(160, 205, 96, 1); } */ 
 
 /* Color Theme Swatches in Hex
 .Amazon-Woman-1-hex { color: #CEF09D; }
