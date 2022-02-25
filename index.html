@@ -1,61 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <!-- <head> simboliza  -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pedrogauch's showcase</title>
 
-    <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="style.css" >
+
+    <style>
+        /* body {
+            font-family: 'Source Code Pro', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: -0.9px;
+            color: #1F0802;
+            background-color: #A0CD60;
+        }
+
+        #hero-title {
+            text-align: center;
+            text-shadow: 2px 2px #CEF09D;
+            color: #38184C;
+            font-size: 45px;
+            font-weight: 900;
+        }
+
+        #menu {
+            text-align: left;
+            font-weight: 400;
+        }
+
+        .topics {
+            background-color: #CEF09D;
+            text-shadow: 2px 2px #A0CD60;
+            color: #38184C;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        #selfie {
+            border-radius: 10%;
+        }
+
+        #main-text {
+            font-weight: 500;
+            text-align: justify;
+        }
+
+        .list {
+            font-weight: 500;
+            text-align: left;
+        }
+
+        .highlight {
+            text-shadow: 2px 2px #CEF09D;
+            color: #38184C;
+        }
+
+        .italic {
+            text-shadow: 2px 2px #A0CD60;
+            color: #38184C;
+        } */
+        
     </style>
 </head>
 
 <body>
-    <h2>
+    <h2 id="hero-title">
         Hi there, I'm Pedro Gauch
     </h2>
 
-    <ul>
+    <ul id="menu">
         <li><a href="#selfie">About me</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#prof-network">Professional network</a></li>
         <li><a href="https://www.youtube.com/watch?v=apPqkqxxzo4&list=PLjDR_UWSWFxWkUN_MOU8oGg9OqtBFavC2" target="_blank">Helmets on</a></li>
     </ul>
 
-    <h3 id="about-me">
+    <h3 class="topics" id="about-me">
         About me
     </h3>
 
     <img id="selfie" src="./images/selfie.jpg" alt="Selfie com o Rio Danubio ao fundo" width="150px">
 
-    <p>
-     I'm a 29 years old brazilian man living in Florianópolis/SC.
+    <p id="main-text">
+     I'm a 29 years old brazilian man living in <strong class="highlight">Florianópolis/SC</strong>.
      An Engineer, graduated from UFSC, who's setting sights on 
      solving big problems with little trouble. My goal is to develop 
      smart, accessible and intuitive solutions to all sets of issues.
      In order to do that in a close future, I'm a current 
-     <strong>Full Stack Web Development</strong> 
+     <strong class="highlight">Full Stack Web Development</strong> 
      student at <a href="https://www.betrybe.com/" target="_blank">Trybe</a>!
     </p>
 
-    <h4 id="skills">
+    <h3 class="topics" id="skills">
         Skills
-    </h4>
+    </h3>
 
-    <ul>
-        <li><strong>Bass player (in progress).</strong></li>
+    <ul class="list">
+        <li><strong class="highlight">Bass player (in progress).</strong></li>
         <li>Teamwork.</li>
         <li>Great sense of responsability.</li>
         <li>Skilled on learning new things.</li>
-        <li><em>Web development tools (beta version).</em></li>
+        <li><em class="italic">Web development tools (beta version).</em></li>
     </ul>
 
-    <h4 id="prof-network">
+    <h3 class="topics" id="prof-network">
         Professional network
-    </h4>
+    </h3>
 
-    <ul>
+    <ul class="list">
         <li>Linkedin</li>
         <li><a href="https://github.com/pedrogauch" target="_blank">Github</a></li>
     </ul>
