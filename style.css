@@ -2,52 +2,151 @@ body {
     font-family: 'Source Code Pro', sans-serif;
     font-size: 20px;
     font-weight: 600;
-    letter-spacing: -0.9px;
-    color: #1F0802;
-    background-color: #A0CD60;
+    text-align: center;
+    letter-spacing: auto;
+    background-color: #CEF09D;
+    display: inline-flexbox;
+    margin: 10px;    
 }
 
 #hero-title {
+    /* font-family: 'Press Start 2P', sans-serif; */
     text-align: center;
-    text-shadow: 2px 2px #CEF09D;
+    text-shadow: 4px 4px #A0CD60;
     color: #38184C;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 900;
+    padding: auto;
 }
 
-#menu {
-    text-align: left;
+#table-topics-menu {
+    text-align: center;
+    padding-top: 20px;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 50px 0;
+    margin: auto;
+    width: 525px;
     font-weight: 400;
+    font-size: 0.9em;
+    display: table;
+    
 }
 
-.topics {
-    background-color: #CEF09D;
-    text-shadow: 2px 2px #A0CD60;
+#tbody-topics-menu {
+    display: table-row-group;
+    vertical-align: middle;
+    }
+
+#tr-topics-menu {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+#td-topics-menu {
+    display: inline;
+}
+
+#topic-title {
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #A0CD60;
+    text-shadow: 3px 3px #CEF09D;
     color: #38184C;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 14px;
+    text-align: center;
+
 }
 
+#about-me-content {
+    display: inline-flex;
+    max-width: 700px;
+    padding: auto;
+    }
+
 #selfie {
-    border-radius: 10%;
+    display: inline-flexbox;
+    border-radius: 25%;
+    float:left; 
+    /* padding: 20px;
+    margin-right: 50px; */
+    margin-top: 18px;
+    width: 180px;
 }
 
 #main-text {
+    color: #1F0802;
+    font-weight: 500;
+    text-align: justify
+    }
+
+#skills-container {
+    display: inline-flex;
+    padding: auto;
+      
+}
+
+.list {
+    color: #1F0802;
     font-weight: 500;
     text-align: justify;
 }
 
-.list {
-    font-weight: 500;
-    text-align: left;
+#professional-network-container {
+    display: inline-flex;
 }
+
+#skills-list-container {
+    display: inline-block;
+    max-width: 400px;
+    }
+
+#professional-network-list-container {
+    display: inline
+    max-width: 400px;
+    padding: auto;
+     }
+
+#linkedin-container {
+    display: inline
+    padding: auto;
+    }
+
+#github-container {
+    display: inline
+    padding: auto;
+}
+
+#ul-display {
+    display: inline;
+}
+
+#paragraph {
+    display: inline-flex;
+    margin-left: 70px;
+    }
 
 .highlight {
-    text-shadow: 2px 2px #CEF09D;
-    color: #38184C;
-}
-
+        text-shadow: 3px 3px #A0CD60;
+        color: #38184C;
+    }
+    
 .italic {
-    text-shadow: 2px 2px #A0CD60;
-    color: #38184C;
-}
+        text-shadow: 2px 2px #A0CD60;
+        color: #38184C;
+    }
+
+
+/* Color Theme Swatches in Hex
+.Amazon-Woman-1-hex { color: #CEF09D; }
+.Amazon-Woman-2-hex { color: #1C646D; }
+.Amazon-Woman-3-hex { color: #1F0802; }
+.Amazon-Woman-4-hex { color: #38184C; }
+.Amazon-Woman-5-hex { color: #A0CD60; }
+
+/* Color Theme Swatches in RGBA */
+/* .Amazon-Woman-1-rgba { color: rgba(205, 239, 156, 1); }
+.Amazon-Woman-2-rgba { color: rgba(28, 100, 109, 1); }
+.Amazon-Woman-3-rgba { color: rgba(31, 8, 2, 1); }
+.Amazon-Woman-4-rgba { color: rgba(56, 23, 75, 1); }
+.Amazon-Woman-5-rgba { color: rgba(160, 205, 96, 1); } */ 

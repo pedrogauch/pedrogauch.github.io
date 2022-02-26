@@ -9,12 +9,16 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="style.css" >
 
     <style>
-        body {
+        /* body {
             font-family: 'Source Code Pro', sans-serif;
             font-size: 20px;
             font-weight: 600;
@@ -66,59 +70,130 @@
         .italic {
             text-shadow: 2px 2px #A0CD60;
             color: #38184C;
-        }
+        } */
         
     </style>
 </head>
 
 <body>
-    <h2 id="hero-title">
-        Hi there, I'm Pedro Gauch
-    </h2>
+    <!-- Part 1 - main title  -->
+    <!-- "container" holding the title  -->
+    <div id="hero-title">
+        <h2>
+            Hi there, I'm Pedro Gauch
+        </h2>
+    </div>
 
-    <ul id="menu">
+    <!-- Topics menu  -->
+    <div id="table-topics-menu">
+    <table>
+        <div id="tbody-topics-menu">
+        <tbody>
+            <div id="tr-topics-menu">
+            <tr>
+                <div id="td-topics-menu">
+                <td>
+                    <a href="#selfie">
+                        About me
+                    </a>
+                </td>
+                
+                    <td>
+                        <a href="#skills">
+                            Skills
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#prof-network">
+                            Professional network
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.youtube.com/watch?v=apPqkqxxzo4&list=PLjDR_UWSWFxWkUN_MOU8oGg9OqtBFavC2" target="_blank">
+                            Helmets on
+                        </a>
+                    </td>
+                </div>
+            </tr>
+            </div>
+        </tbody>
+        </div>
+    </table>
+    </div>    
+
+    <!-- <ul id="menu">
         <li><a href="#selfie">About me</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#prof-network">Professional network</a></li>
         <li><a href="https://www.youtube.com/watch?v=apPqkqxxzo4&list=PLjDR_UWSWFxWkUN_MOU8oGg9OqtBFavC2" target="_blank">Helmets on</a></li>
-    </ul>
+    </ul> -->
 
-    <h3 class="topics" id="about-me">
-        About me
-    </h3>
+    <!-- Fist topic: About me  -->
+    <div id="topic-title">
+        <h3 class="topics" id="about-me">
+            About me
+        </h3>
+    </div>
 
-    <img id="selfie" src="./images/selfie.jpg" alt="Selfie com o Rio Danubio ao fundo" width="150px">
+    <div id="about-me-content">
 
-    <p id="main-text">
-     I'm a 29 years old brazilian man living in <strong class="highlight">Florianópolis/SC</strong>.
-     An Engineer, graduated from UFSC, who's setting sights on 
-     solving big problems with little trouble. My goal is to develop 
-     smart, accessible and intuitive solutions to all sets of issues.
-     In order to do that in a close future, I'm a current 
-     <strong class="highlight">Full Stack Web Development</strong> 
-     student at <a href="https://www.betrybe.com/" target="_blank">Trybe</a>!
-    </p>
+        <div id="selfie">
+            <img id="selfie" src="./images/selfie.jpg" alt="Selfie com o Rio Danubio ao fundo" >
+        </div>
+        
+        <div id="paragraph">
+            <p id="main-text">
+                I'm a 29 years old brazilian man living in <strong class="highlight">Florianópolis/SC</strong>. 
+                <br> An Engineer, graduated from UFSC, who's setting sights on 
+                solving big problems with little trouble. 
+                <br> My goal is to develop smart, accessible and intuitive solutions to all sets of issues.
+                In order to do that in a close future, I'm a current 
+                <strong class="highlight">Full Stack Web Development</strong> 
+                student at <a href="https://www.betrybe.com/" target="_blank">Trybe</a>!
+            </p>
+        </div>
 
+    </div>  
+
+    <!-- Second topic: skills  -->
+    <div id="topic-title">
     <h3 class="topics" id="skills">
         Skills
     </h3>
+    </div>
 
-    <ul class="list">
-        <li><strong class="highlight">Bass player (in progress).</strong></li>
-        <li>Teamwork.</li>
-        <li>Great sense of responsability.</li>
-        <li>Skilled on learning new things.</li>
-        <li><em class="italic">Web development tools (beta version).</em></li>
-    </ul>
+    <div id="skills-container">
+        <ul class="list">
+            <div id="skills-list-container">
+                <li><strong class="highlight">Bass player (in progress).</strong></li>
+                <li>Teamwork.</li>
+                <li>Great sense of responsability.</li>
+                <li>Skilled on learning new things.</li>
+                <li><em class="italic">Web development tools (beta version).</em></li>
+            </div>
+        </ul>
+    </div>
 
-    <h3 class="topics" id="prof-network">
-        Professional network
-    </h3>
+    <!-- Third topic: professional network  -->
+    <div id="topic-title">
+        <h3 class="topics" id="prof-network">
+            Professional network
+        </h3>
+    </div>
 
-    <ul class="list">
-        <li>Linkedin</li>
-        <li><a href="https://github.com/pedrogauch" target="_blank">Github</a></li>
-    </ul>
+    <div id="professional-network-container">
+        <div id="ul-display">
+            <ul class="list">
+                <div id="linkedin-container">
+                    <li>Linkedin</li>
+                </div> 
+                <div id="github-container"></div>
+                    <li><a href="https://github.com/pedrogauch" target="_blank">Github</a></li>
+                </div> 
+            </ul>
+        </div>
+    </div>
+        
 
     
 </body>
