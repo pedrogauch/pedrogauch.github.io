@@ -10,11 +10,11 @@ body {
 }
 
 #hero-title {
-    /* font-family: 'Press Start 2P', sans-serif; */
+    font-family: 'Press Start 2P', sans-serif;
     text-align: center;
     text-shadow: 4px 4px #A0CD60;
     color: #38184C;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 900;
     padding: auto;
 }
@@ -48,12 +48,12 @@ body {
 }
 
 #topic-title {
-    font-family: 'Press Start 2P', sans-serif;
+    /* font-family: 'Press Start 2P', sans-serif; */
     background-color: #A0CD60;
     text-shadow: 3px 3px #CEF09D;
     color: #38184C;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 24px;
     text-align: center;
 
 }
